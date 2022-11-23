@@ -3308,10 +3308,10 @@ p {
 .text-block-11 {
     padding-top: 15px;
     padding-bottom: 15px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#00ff6f), to(#1bffff));
-    background-image: linear-gradient(180deg, #00ff6f, #1bffff);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffee00), to(#161aeb));
+    background-image: linear-gradient(180deg, #d400ff, #ff3d1b);
     font-family: Montserrat, sans-serif;
-    color: #00ff0b;
+    color: #043f07;
     font-size: 32px;
     line-height: 53px;
     font-weight: 800;
