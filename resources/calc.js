@@ -21,7 +21,7 @@ document.querySelector('.calc-calculate').addEventListener('clic', function() {
 	 
      const sum = num1 + num2;
 
-     document.querySelector('.calc-result').value = result;
+     document.querySelector('.calc-result').value=sum;
 });
 
 
