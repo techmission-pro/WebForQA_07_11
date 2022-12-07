@@ -24,6 +24,7 @@ function calculate () {
 });
 
 
+
 document.querySelector('.calc-calculate').addEventListener('click', function () {
 	calculate (); 
 }
