@@ -1,4 +1,4 @@
-document.querySelector('.calc_calculate') .addEventListener('click', function () {
+function calculate () {
     const num1 = +document.querySelector('[name="num1"]').value;
     const num2 = +document.querySelector('[name="num2"]').value;
     const op = document.querySelector('[name="op"]').value;
@@ -23,4 +23,20 @@ document.querySelector('.calc_calculate') .addEventListener('click', function ()
     }
 
     document.querySelector('.calc_result').value = result;
+}
+
+document.querySelector('.calc_calculate').addEventListener('click', function () {
+    calculate();
+});
+
+document.querySelector('[name="op"]').addEventListener('input', function () {
+    calculate();
+});
+
+document.querySelector('[name="num1"]').addEventListener('input', function () {
+    calculate();
+});
+
+document.querySelector('[name="num2"]').addEventListener('input', function () {
+    calculate();
 });
