@@ -34,24 +34,8 @@
           rel="shortcut icon" type="image/x-icon">
     <link href="https://uploads-ssl.webflow.com/624aaff4dc2c3792204aaf07/624aaff5dc2c375a354aaf2c_metric-webclip.png"
           rel="apple-touch-icon">
-          <style>
-            .div-block-12 {
-                   flex-direction: row-reverse;
-            }
-            .div-block-12 .div-block-9 {
-                padding-left: 15px;
-            }
-            .emoji {
-                display: inline-block;
-                width: 1em;
-                height: 1em;
-            }
-            .navigation{
-                position: fixed;
-            }
-          </style>
 </head>
-<body style="padding-top: 93px ;">
+<body>
 <div class="navigation w-nav" data-animation="default" data-collapse="medium" data-duration="400"
      data-easing="ease" data-easing2="ease" role="banner">
     <div class="container w-container">
@@ -264,12 +248,7 @@
                 </div>
             </div>
             <div class="div-block-9">
-                <div class="text-block-6"
-                >Приєднуйся до відкритого заняття
-                 <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/350/christmas-tree_1f384.png" alt="ChristmassTree" class="emoji" /> 
-                 постав свої питання
-                 <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/350/santa-claus_1f385.png" alt="Santa" class="emoji" /> 
-                </div>
+                <div class="text-block-6">Приєднуйся до відкритого заняття - постав свої питання</div>
                 <img alt="" class="image-6 mobile qa" loading="lazy"
                      src="resources/images/arrow-rounded.png"><a
                     class="button2 scroll-to mobile smoothscroll" data-w-id="5a32690a-a66a-3354-987e-046ad719c696"
@@ -401,7 +380,17 @@
                 class="text-span-4 text-span-2">освоїти нову професію</span></h3></div>
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
-                <div class="w-embed">
+                <div class = "calc">
+                    <input type="number" name="num1" class="calc-input" />
+                    <select name = operation class="calc-operation">
+                            <option value="add">+</option>
+                            <option value="sub">-</option>
+                            <option value="mult">*</option>
+                            <option value="div">/</option>
+                    </select>
+                    <input type="number" name="num2" class="calc-input" />
+                    <button type="button" class="calc-calculate">=</button>
+                    <span class="cal-result"></span>
                 </div>
             </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
@@ -424,6 +413,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 
 <!-- Test comment --->
+<script src="./resources/calc.js"></script>
 
 </body>
 </html>
